@@ -140,17 +140,34 @@ table {
 #35424A   dark gray
 */
 
+header .navigation {
+    background: yellow;
+    color: white;
+}
+
 header .navigation .home-logo {
     background: blue;
-    /* padding: 10px; */
+    font-size: 2rem;
+    padding: 40px;
+    margin-left: 10%;
     float: left;
 }
 
 header .navigation .links {
     background: red;
-    /* padding: 10px; */
+    font-size: 1rem;
+    padding: 40px;
+    margin-right: 10%;
     float: right;
 }
+
+header .navigation nav a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
 
 header .navigation::after {
     content: "";
