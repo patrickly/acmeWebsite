@@ -140,30 +140,42 @@ table {
 #35424A   dark gray
 */
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 header .navigation {
-    background: yellow;
+    background: #35424A;
     color: white;
+    border-bottom: 4px solid #E8492C;
 }
 
 header .navigation .home-logo {
-    background: blue;
-    font-size: 2rem;
-    padding: 40px;
+    font-size: 2.5rem;
+    /* padding: 40px; */
     margin-left: 10%;
     float: left;
+    /* height: 80px; */
+    padding: 35px 0;
+    font-weight: 700;
+
 }
 
 header .navigation .links {
-    background: red;
-    font-size: 1rem;
-    padding: 40px;
+    font-size: 20px;
+    /* padding: 40px; */
     margin-right: 10%;
     float: right;
+    /* height: 30px; */
+    padding: 41px 0;
+    padding-top: 45px;
 }
 
 header .navigation nav a {
     text-decoration: none;
     color: white;
+    margin: 0 20px;
+    text-transform: uppercase;
 }
 
 
