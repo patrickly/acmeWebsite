@@ -143,9 +143,11 @@ table {
 header .navigation .home-logo {
     background: blue;
     padding: 10px;
+    float: left;
 }
 
 header .navigation .links {
     background: red;
     padding: 10px;
+    float: right;
 }
