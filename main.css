@@ -151,24 +151,26 @@ header .navigation {
 }
 
 header .navigation .home-logo {
+    /* background: red; */
     font-size: 2.5rem;
     /* padding: 40px; */
     margin-left: 10%;
     float: left;
     /* height: 80px; */
-    padding: 35px 0;
+    padding: 2% 0;
     font-weight: 700;
 
 }
 
 header .navigation .links {
+    /* background: blue; */
     font-size: 20px;
     /* padding: 40px; */
     margin-right: 10%;
     float: right;
     /* height: 30px; */
-    padding: 41px 0;
-    padding-top: 45px;
+    padding: 2.4% 0;
+    padding-top: 2.8%;
 }
 
 header .navigation nav a {
@@ -189,4 +191,65 @@ header .navigation::after {
 
 .banner {
     background: green;
+}
+
+@media screen and (max-width:480px) {
+
+    header .navigation {
+        /* background: pink; */
+        color: white;
+        border-bottom: 4px solid #E8492C;
+    }
+
+    header .navigation .home-logo {
+        /* background: lightblue; */
+        padding-top: 45px;
+        width: 80%;
+        text-align: center;
+        height: 40px;
+        font-weight: 700;
+        font-size: 35px;
+    }
+
+    header .navigation .links {
+        /* background: blue; */
+        height: 50px;
+        font-size: 21px;
+        display: inline-block;
+        padding-top: 25px;
+        margin-right: 0.5%;
+        /* height: 30px; */
+    }
+}
+
+@media screen and (max-width:770px) {
+
+    header .navigation {
+        /* background: pink; */
+        color: white;
+        border-bottom: 4px solid #E8492C;
+    }
+
+    header .navigation .home-logo {
+        /* background: lightblue; */
+        padding-top: 45px;
+        width: 80%;
+        text-align: center;
+        height: 40px;
+        font-weight: 700;
+        font-size: 35px;
+    }
+
+    header .navigation .links {
+        /* background: blue; */
+        width: 80%;
+        text-align: center;
+        /* margin: 0 auto; */
+        height: 50px;
+        font-size: 21px;
+        display: inline-block;
+        padding-top: 25px;
+        /* margin-right: 0.5%; */
+        /* height: 30px; */
+    }
 }
