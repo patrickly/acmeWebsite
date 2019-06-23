@@ -140,7 +140,12 @@ table {
 #35424A   dark gray
 */
 
-header .navigation {
+header .navigation .home-logo {
     background: blue;
+    padding: 10px;
+}
+
+header .navigation .links {
+    background: red;
     padding: 10px;
 }
