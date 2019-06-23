@@ -173,7 +173,7 @@ header .navigation .links {
     padding-top: 2.8%;
 }
 
-header .navigation nav a {
+header .navigation .links nav a {
     text-decoration: none;
     color: white;
     margin: 0 20px;
@@ -202,54 +202,33 @@ header .navigation::after {
     }
 
     header .navigation .home-logo {
-        /* background: lightblue; */
+        background: lightblue;
         padding-top: 45px;
         width: 80%;
         text-align: center;
-        height: 40px;
+        height: 70px;
         font-weight: 700;
         font-size: 35px;
     }
 
     header .navigation .links {
-        /* background: blue; */
-        height: 50px;
-        font-size: 21px;
-        display: inline-block;
-        padding-top: 25px;
-        margin-right: 0.5%;
-        /* height: 30px; */
-    }
-}
-
-@media screen and (max-width:770px) {
-
-    header .navigation {
-        /* background: pink; */
-        color: white;
-        border-bottom: 4px solid #E8492C;
-    }
-
-    header .navigation .home-logo {
-        /* background: lightblue; */
-        padding-top: 45px;
+        display: block;
+        background: blue;
+        font-size: 20px;
         width: 80%;
-        text-align: center;
-        height: 40px;
-        font-weight: 700;
-        font-size: 35px;
+        height: 150px;
     }
 
-    header .navigation .links {
-        /* background: blue; */
-        width: 80%;
-        text-align: center;
-        /* margin: 0 auto; */
-        height: 50px;
-        font-size: 21px;
+    header .navigation .links nav a {
         display: inline-block;
-        padding-top: 25px;
-        /* margin-right: 0.5%; */
-        /* height: 30px; */
+        background: red;
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        line-height: 35px;
+        border: 1px solid black;
+
     }
+
 }
