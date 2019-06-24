@@ -201,6 +201,10 @@ header .navigation::after {
 } */
 
 .banner {
+    background: lime;
+}
+
+.banner .container {
     background: green;
     color: white;
     height: 500px;
@@ -209,19 +213,19 @@ header .navigation::after {
     margin: 0 auto;
 }
 
-.banner h1 {
+.banner .container h1 {
     font-size: 4.5rem;
     font-weight: bold;
     background: red;
     height: 45%;
-    padding-bottom: 5%;
+    padding-bottom: 4.5%;
     display: flex;
     align-items: flex-end;
     justify-content: center;
     /* https://stackoverflow.com/questions/12415661/using-marginauto-to-vertically-align-a-div */
 }
 
-.banner p {
+.banner .container p {
     background: blue;
     font-size: 1.5rem;
     width: 90%;
