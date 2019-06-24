@@ -238,25 +238,25 @@ header .navigation::after {
   font-weight: 500;
 }
 
-#emailForm {
+.newsletter {
   background: yellow;
   width: 100%;
 }
 
-#emailForm h3 {
+.newsletter h3 {
   background: red;
   width: 40%;
   float: left;
 }
 
-#emailForm form {
+.newsletter form {
   background: green;
   padding: 10px;
   width: 40%;
   float: right;
 }
 
-#emailForm::after {
+.newsletter::after {
   content: "";
   clear: both;
   display: table;
