@@ -142,6 +142,7 @@ table {
 
 body {
     font-family: 'Roboto', sans-serif;
+
 }
 
 header .navigation {
@@ -201,7 +202,23 @@ header .navigation::after {
 
 .banner {
     background: green;
+    color: white;
+    height: 500px;
+    text-align: center;
 }
+
+.banner h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    background: red;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* https://stackoverflow.com/questions/12415661/using-marginauto-to-vertically-align-a-div */
+}
+
+
 
 @media only screen and (max-width: 770px) and (min-width: 481px) {
 
