@@ -349,6 +349,27 @@ Media Queries
         /* background: green; */
         line-height: 1.2;
         align-items: center;
-        font-weight: 600;
+        font-weight: 550;
+    }
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+    .banner .container h1 {
+        /* background: red; */
+        font-size: 3.4rem;
+        line-height: 1.2;
+        font-weight: 550;
+    }
+
+    .banner .container p {
+
+        /* background: green; */
+        line-height: 1.2;
+        align-items: center;
+        font-weight: 500;
+        padding-top: 15px;
     }
 }
