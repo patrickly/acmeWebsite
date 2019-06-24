@@ -218,6 +218,14 @@ header .navigation::after {
     /* https://stackoverflow.com/questions/12415661/using-marginauto-to-vertically-align-a-div */
 }
 
+.banner p {
+    background: blue;
+    font-size: 1.5rem;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 @media only screen and (max-width: 770px) and (min-width: 481px) {
