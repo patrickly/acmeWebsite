@@ -201,11 +201,14 @@ header .navigation::after {
 } */
 
 .banner {
-    background: lime;
+    /* background: lime; */
+    background-image: url("img/showcase.jpg");
+    background-position: center;
+    /* background-size: cover; */
 }
 
 .banner .container {
-    background: green;
+    /* background: green; */
     color: white;
     height: 500px;
     text-align: center;
@@ -216,7 +219,7 @@ header .navigation::after {
 .banner .container h1 {
     font-size: 4.5rem;
     font-weight: bold;
-    background: red;
+    /* background: red; */
     height: 45%;
     padding-bottom: 4.5%;
     display: flex;
@@ -226,7 +229,7 @@ header .navigation::after {
 }
 
 .banner .container p {
-    background: blue;
+    /* background: blue; */
     font-size: 1.5rem;
     width: 90%;
     margin: 0 auto;
@@ -237,7 +240,10 @@ header .navigation::after {
     line-height: 1.5;
 }
 
-
+/*
+***********************************************************************
+Media Queries
+*/
 @media only screen and (max-width: 770px) and (min-width: 481px) {
 
     header .navigation {
