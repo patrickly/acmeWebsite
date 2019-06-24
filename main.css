@@ -205,12 +205,12 @@ header .navigation::after {
     color: white;
     height: 500px;
     text-align: center;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 
 .banner h1 {
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-weight: bold;
     background: red;
     height: 45%;
@@ -224,7 +224,9 @@ header .navigation::after {
 .banner p {
     background: blue;
     font-size: 1.5rem;
-    height: 50%;
+    width: 90%;
+    margin: 0 auto;
+    height: 40%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
