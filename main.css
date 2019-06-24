@@ -238,6 +238,7 @@ header .navigation::after {
     justify-content: center;
     align-items: flex-start;
     line-height: 1.5;
+    font-weight: 500;
 }
 
 /*
@@ -332,4 +333,22 @@ Media Queries
 
     }
 
+}
+
+@media only screen and (max-width: 770px) and (min-width: 481px) {
+
+    .banner .container h1 {
+
+        /* background: green; */
+        font-size: 3.6rem;
+        line-height: 1.2;
+    }
+
+    .banner .container p {
+
+        /* background: green; */
+        line-height: 1.2;
+        align-items: center;
+        font-weight: 600;
+    }
 }
