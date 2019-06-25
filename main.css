@@ -242,7 +242,7 @@ header .navigation::after {
   background: yellow;
   width: 100%;
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
 }
 
 .newsletter h3 {
