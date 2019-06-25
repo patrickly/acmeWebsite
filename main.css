@@ -250,7 +250,7 @@ header .navigation::after {
   width: 40%;
   /* float: left; */
   font-size: 1.5rem;
-  /* display: flex; */
+  display: flex;
   /* align-items: center; */
 }
 
