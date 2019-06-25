@@ -241,21 +241,25 @@ header .navigation::after {
 .newsletter {
   background: yellow;
   width: 100%;
-  padding: 26px;
+  display: flex;
+  /* justify-content: center; */
 }
 
 .newsletter h3 {
   background: red;
   width: 40%;
-  float: left;
+  /* float: left; */
   font-size: 1.5rem;
+  /* display: flex; */
+  /* align-items: center; */
 }
 
 .newsletter form {
   background: green;
   padding: 10px;
   width: 40%;
-  float: right;
+  /* float: right; */
+  /* align-items: flex-end; */
 }
 
 .newsletter form input {
