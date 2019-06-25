@@ -241,12 +241,14 @@ header .navigation::after {
 .newsletter {
   background: yellow;
   width: 100%;
+  padding: 26px;
 }
 
 .newsletter h3 {
   background: red;
   width: 40%;
   float: left;
+  font-size: 1.5rem;
 }
 
 .newsletter form {
@@ -256,6 +258,15 @@ header .navigation::after {
   float: right;
 }
 
+.newsletter form input {
+  background: orange;
+  padding: 10px;
+}
+
+.newsletter form button {
+  background: blue;
+  padding: 10px;
+}
 .newsletter::after {
   content: "";
   clear: both;
