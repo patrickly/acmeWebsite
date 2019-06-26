@@ -404,3 +404,26 @@ Media Queries
     padding-top: 15px;
   }
 }
+
+@media only screen and (max-width: 770px) and (min-width: 481px) {
+  .newsletter h3 {
+    /* background: red; */
+    color: white;
+    width: 40%;
+    /* float: left; */
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+
+  .newsletter form {
+    /* background: green; */
+    padding: 10px;
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    /* float: right; */
+    /* align-items: flex-end; */
+  }
+}
