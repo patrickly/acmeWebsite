@@ -260,6 +260,8 @@ header .navigation::after {
   background: green;
   padding: 10px;
   width: 40%;
+  display: flex;
+  justify-content: flex-end;
   /* float: right; */
   /* align-items: flex-end; */
 }
@@ -267,6 +269,7 @@ header .navigation::after {
 .newsletter form input {
   background: orange;
   padding: 10px;
+  width: 50%;
 }
 
 .newsletter form button {
