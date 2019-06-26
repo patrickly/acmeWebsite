@@ -239,28 +239,28 @@ header .navigation::after {
 }
 
 .newsletter {
-  background: yellow;
+  background: #35424A;
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding: 30px;
 }
 
 .newsletter h3 {
-  background: red;
+  /* background: red; */
   color: white;
-  width: 32%;
+  width: 41%;
   /* float: left; */
-  font-size: 1.6rem;
-  font-weight: 600;
+  font-size: 1.8rem;
+  font-weight: bold;
   display: flex;
   align-items: center;
 }
 
 .newsletter form {
-  background: green;
+  /* background: green; */
   padding: 10px;
-  width: 40%;
+  width: 34%;
   display: flex;
   justify-content: flex-end;
   /* float: right; */
@@ -268,7 +268,7 @@ header .navigation::after {
 }
 
 .newsletter form input {
-  background: orange;
+  /* background: orange; */
   padding: 10px;
   width: 50%;
   font-size: 14px;
